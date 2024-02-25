@@ -117,7 +117,7 @@ from sklearn.model_selection import train_test_split
 ```
 
 
-** Training the Model (1/2) 2.1:**
+** Training the Model (1/2) 2.1: **
 Training:
 ```
 X_train, X_test, y_train, y_test = train_test_split(spectrogram, y1, test_size=0.33, random_state=42)
@@ -145,7 +145,7 @@ model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accur
 ```
 
 
-** Training the Model (1/2) 2.2:**
+** Training the Model (1/2) 2.2: **
 Accuracy:
 ```
 history = model.fit(X_train,y_one_hot, batch_size=250, epochs=20,validation_data=(X_test, y_t_one_hot))
@@ -192,7 +192,7 @@ model2.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accu
 ```
 
 
-** Training the Model (2/2) 2.2:**
+** Training the Model (2/2) 2.2: **
 Accuracy:
 
 
